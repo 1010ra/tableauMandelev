@@ -1,0 +1,38 @@
+/* Element selectionner sans . et # au debut de son nom est une balise */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Element selectionné avec . au debut de son nom est une classe */
+.focus{
+    background-color: rgb(157, 154, 228);
+    width: fit-content;
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 8px 80px;
+    margin-top: 60px;
+    border-right:7px;
+    border-color: rgb(35, 47, 47);
+    border-radius:20px;
+    font-weight:4px;
+    background-color: rgba(225, 240, 235, 0.95);
+  }
+
+.box{
+    margin-top: 35px;
+}
+@media screen {
+    
+}
+
+
+/* Element selectionné avec # au debut de son nom est identifiant */
+        
+

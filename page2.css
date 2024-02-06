@@ -1,0 +1,113 @@
+.box{
+    border: 1px solid black;
+    width: 5px;
+    height: 5px;
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sepration{
+    height: 50px;
+}
+td{
+    font-size: 10px;
+    text-align: center;
+}
+.photo{
+    
+  
+    border-radius: 95%;
+    height: 95px;
+    width: 95px;
+    margin-left: 55%;
+    margin-top: 1%;
+    text-align:center ;
+}
+.violet{
+    background-color: #7d71a3;
+    
+} 
+.bleue{
+    background:rgb(129, 176, 211) ;
+
+}
+.vertf{
+    background-color:#35bc92;
+}
+.verte{
+    background-color:#B4DFAD ;
+}
+.orange{
+    background-color:#F19B83 ;
+}
+.maron1{
+    background-color:#F1CAA7 ;
+}
+.maron2{
+    background-color:#FFEFC1 ;
+}
+.jaune{
+    background-color:#F1FBCA ;
+}
+.rose1{
+    background-color:#EA96A1 ;
+}
+.rose2{
+    background-color:#C16895 ;
+
+}
+@media screen and (max-width:2230px) {
+    table tr td {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:1735px) {
+    table tr td {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:1539px) {
+    table tr td {
+        font-size: 7px;
+    }
+}
+@media screen and (max-width:1465px) {
+    table tr td {
+        font-size: 6px;
+    }
+}
+@media screen and (max-width:1080px) {
+    table tr td {
+        font-size: 5px;
+    }
+}
+@media screen and (max-width:888px) {
+    table tr td {
+        font-size: 4px;
+    }
+}
+@media screen and (max-width:764px) {
+    table tr td {
+        font-size: 3px;
+    }
+}
+@media screen and (max-width:669px) {
+    table tr td {
+        font-size: 2px;
+    }
+}
+@media screen and (max-width:620px) {
+    table tr td {
+        font-size: 2px;
+    }
+}
+ @media screen and(max-width:551px){
+    table tr td {
+        font-size: 1px;
+    }
+ }   
+ 
